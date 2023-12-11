@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Amita:wght@400;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Amita', serif;
+  background-color: #0A170B;
+  /* overflow: hidden; */
+}
+ul, li, a {
+  list-style: none;
+  text-decoration: none;
+  color: #FFEED4;
+}
+h3 {
+  margin: 0;
+}
+.mobile-menu-handler {
+  display: none;
+}
+#header {
+  padding: 30px 75px;;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+.main-nav > ul, .access-icons {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.main-nav > ul > img {
+  width: 59px;
+}
+.main-nav > ul > li > a {
+  font-size: 18px;
+}
+.access-icons > a > img {
+  height: 40px;
+  width: 39px;
+}
+#hero-banner {
+  padding: 30px 75px;;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+#hero-banner > h1 {
+  color: #FFEED4;
+  font-size: 64px;
+  font-weight: 700;
+  text-align: center;
+}
+#hero-banner > img {
+  top: 220px;
+  height: 672px;
+  width: 1024px;
+  text-align: left;
+  align-self: flex-start;
+  position: absolute;
+  left: 0px;
+}
+.apply {
+  border-radius: 40px;
+  background: #E4A951;
+  color: #0A170B;
+  font-size: 36px;
+  font-family: 'Amita', serif;
+  font-weight: 700;
+  padding: 0px 50px;
+  margin-bottom: 300px;
+}
+
+#about {
+  padding: 142px 262px 142px 75px ;
+  background-color: rgba(228, 169, 81, 0.12);
+  border-top-right-radius: 900px;
+  border-bottom-right-radius: 900px;
+  position: relative;
+  max-width: 1251px;
+  margin-bottom: 222px;
+}
+#about > p {
+  color: #FFEED4;
+  font-size: 20px;
+}
+#about > li {
+  font-size: 24px;
+  list-style: disc;
+  text-decoration: underline;
+}
+#about > img {
+  width: 355px;
+  position: absolute;
+  bottom: 200px;
+  right: 235px;
+}
+#subjects {
+  padding: 142px 75px 142px 262px;
+  background-color: rgba(228, 169, 81, 0.12);
+  border-top-left-radius: 900px;
+  border-bottom-left-radius: 900px;
+  position: relative;
+  max-width: 1251px;
+  margin-bottom: 222px;
+  right: -311px;
+}
+#subjects > h2 {
+  color: #FFEED4;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  text-decoration-line: underline;
+}
+#subjects > p {
+  color: #FFEED4;
+  font-size: 20px;
+}
+
+.houses {
+  color: #FFF;
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.houses__image {
+  padding: 0px 90px;
+  width: -webkit-fill-available;
+}
+
+#hogwarts_express {
+  background-color: rgba(228, 169, 81, 0.12);
+  border-top-right-radius: 900px;
+  border-bottom-right-radius: 900px;
+  position: relative;
+  max-width: 1251px;
+  margin-top: 222px;
+  display: flex;
+  justify-content: space-between;
+}
+#hogwarts_express > img {
+  width: 388px;
+  height: 358px;
+}
+#hogwarts_express > p {
+  color: #FFEED4;
+  font-size: 20px;
+  padding: 134px 44px;
+  text-align: center;
+  font-size: 14px;
+}
+
+#schedule {
+  background-color: rgba(228, 169, 81, 0.12);
+  border-top-left-radius: 900px;
+  border-bottom-left-radius: 900px;
+  position: relative;
+  max-width: 1251px;
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+  right: -648px;
+}
+#schedule > img {
+  width: 392px;
+  height: 358px;
+  position: relative;
+  right: 0;
+}
+#schedule > div {
+  margin: 0 auto;
+}
+#schedule > div > h4,
+#schedule > div > p {
+  color: #FFEED4;
+  font-size: 20px;
+  text-align: center;
+  font-size: 14px;
+}
+
+#school-supplies {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 150px;
+  height: revert-layer;
+  height: 1000px;
+}
+.menu {
+  border-radius: 30px;
+  background: rgba(228, 169, 81, 0.12);
+  padding: 20px 35px;
+  color: #FFEED4;
+  font-weight: 700;
+  height: fit-content;
+}
+.menu > h3 {
+  font-size: 20px;
+  text-align: center;
+}
+.menu > h4 {
+  font-size: 14px;
+  text-decoration: underline;
+}
+.type {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.another__type {
+  margin-bottom: 30px;
+}
+
+.result__menu {
+  display: flex;
+  flex-direction: column;
+}
+#cart{
+  background: rgba(228, 169, 81, 0.12);
+  padding: 58px 100px;
+  border-radius: 30px;
+  text-align: center;
+}
+#cart > h2 {
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+}
+.result__menu > .apply {
+  margin-top: 50px;
+}
+
+#contact {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#contact > img {
+  width: 269px;
+}
+#contact > div > div > img {
+  width: 27px;
+  height: 26px;
+}
+#contact > div > h3 {
+  color: #FFEED4;
+  font-size: 32px;
+  font-weight: 700;
+}
+#contact > div > div {
+  color: #FFEED4;
+  font-size: 20px;
+  align-items: center;
+}
+#contact > div > div > span:last-child{
+  text-decoration: underline;
+}

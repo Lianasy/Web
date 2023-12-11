@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Document</title>
+</head>
+<body>
+        <header id="header">
+            <nav class="main-nav">
+                <ul>
+                    <img src="./assets/logo.png" alt="emblem">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#schedule">Schedule</a></li>
+                    <li><a href="#school-supplies">Price</a></li>
+                </ul>
+            </nav>
+            <div class="access-icons">
+                <a href="#contact"><img src="./assets/email.png" alt="email"></a>
+                <a href="#contact"><img src="./assets/floo.png" alt="floo"></a>
+                <a href="#contact"><img src="./assets/owl.png" alt="owl"></a>
+            </div>
+            <div class="mobile-menu-handler">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </header>
+        
+        <section id="hero-banner">
+            <h1>Hogwarts School<br>of Witchcraft and Wizardry</h1>
+            <button class="apply">Apply</button>
+            <img src="./assets/hogwarts.png" alt="Hogwarts Castle">
+        </section>
+        <section id="about">
+            <p>Hogwarts School of Witchcraft and Wizardry, often shortened to Hogwarts, is a Scottish wizarding school located in the Scottish Highlands.<br>
+            It accepts any magical student residing in the islands of Great Britain and Ireland at the age of eleven years old at the start of the incoming term for enrolment.<br>
+            It is a state-owned school, funded by the British Ministry of Magic.</p>
+            <li>Location</li>
+            <p>Hogwarts Castle, Highlands, Scotland, Great Britain</p>
+            <li>Motto</li>
+            <p>Draco Dormiens Nunquam Titillandus (Never Tickle a Sleeping Dragon)</p>
+            <li>Headmaster</li>
+            <p>Minerva McGonagall</p>
+            <img src="./assets/hogwarts_logo.png" alt="Hogwarts Logo">
+        </section>  
+        <section id="subjects">
+            <h2>Subjects</h2>
+            <p>All first-years at Hogwarts must take seven subjects: Transfiguration, Charms, Potions, History of Magic, Defense Against the Dark Arts, Astronomy, and Herbology. Flying lessons (on broomsticks) are also compulsory.
+            At the end of their second year at Hogwarts, students are required to choose a minimum of two more subjects from the following list: Arithmancy, Muggle Studies, Divination, Study of Ancient Runes, and Care of Magical Creatures. Very specialized subjects such as Alchemy are sometimes offered in the final two years, if there is sufficient demand.</p>
+        </section>
+
+        <h2 class="houses">Houses</h2>
+        <img class="houses__image" src="./assets/hogwarts_houses.png" alt="Hogwarts Houses"><br>
+        
+        <section id="hogwarts_express">
+            <img src="./assets/hogwarts_express.png" alt="Hogwarts Express">
+            <p>The school year at Hogwarts starts on the first of September. Students ride Hogwarts Express from King’s Cross Station. The express departs at 11:00 a.m. and arrives at Hogsmeade Station.</p>
+        </section>
+        <section id="schedule">
+            <div>
+                <h4>Daily Schedule</h4>
+                <p> The daily schedule looks like this from Monday through Friday: <br>
+                    06:30 a.m. - 08:30 a.m.: Breakfast <br>
+                    09:00 a.m. - 12:00 p.m.: Classes <br>
+                    12:00 p.m. - 01:00 p.m.: Lunch <br>
+                    01:00 p.m. - 04:00 p.m.: Classes <br>
+                    06:00 p.m. - 08:00 p.m.: Dinner <br>
+                    09:00 p.m. - 06:00 a.m.: Curfew <br>
+                    There are no classes on Saturday and Sunday. <br>
+                    The library is open from 07:00 a.m. to 08:30 from Monday through Friday <br>
+                    and from 09:00 a.m. to 08:00 p.m. on Saturday and Sunday. </p>
+            </div>
+            <img src="./assets/room.png" alt="room">
+        </section>  
+        <section id="school-supplies">
+            <div class="menu">
+                <h3>School Supplies Purchase Form</h3>
+                <h4>Type of Contract:</h4>
+                <div class="another__type">
+                    <div class="type">
+                        <div class="type__text">
+                            <input type="radio" id="owl" name="contract" value="O.W.L">
+                            <label for="owl">5 school years: Ordinary Wizarding Level (O.W.L)</label>
+                        </div>
+                        <span>1000 G</span>
+                    </div>
+                    <div class="type">
+                        <input type="radio" id="newt" name="contract" value="N.E.W.T">
+                        <div class="type__text">
+                            <label for="newt">7 school years: Nastily Exhausting Wizarding Test (N.E.W.T)</label>
+                            <span>1500 G</span>
+                        </div>
+                    </div>
+                </div>
+                <h4>Do you apply for financial assistance from the Ministry of Magic?</h4>
+                <p>
+                    <input type="radio" id="yesAssistance" name="assistance" value="Yes">
+                    <label for="yesAssistance">Yes</label><br>
+                    <input type="radio" id="noAssistance" name="assistance" value="No">
+                    <label for="noAssistance">No</label>
+                </p>
+            
+                <h4>Owlery rental costs 10 galleons per year. Feed is not included in the price.</h4>
+                <p>
+                    <input type="radio" id="yesOwlery" name="owlery" value="Yes">
+                    <label for="yesOwlery">Yes</label><br>
+                    <input type="radio" id="noOwlery" name="owlery" value="No">
+                    <label for="noOwlery">No</label>
+                </p>
+            
+                <h4>Please select from the list the desired items for the first school year:</h4>
+                <div class="another__type">
+                    <div class="type">
+                        <div class="type__text">
+                            <input type="checkbox" id="robes" name="items" value="Three sets of plain work robes (black)">
+                            <label for="robes">Three sets of plain work robes (black)</label>
+                        </div>
+                        <span>15 G/span>
+                    </div>
+                    <div class="type">
+                        <div class="type__text">
+                            <input type="checkbox" id="hat" name="items" value="One plain pointed hat (black) for day wear">
+                            <label for="hat">One plain pointed hat (black) for day wear</label>
+                        </div>
+                        <span>4 G</span>
+                    </div>
+                    <div class="type">
+                        <div class="type__text">
+                            <input type="checkbox" id="gloves" name="items" value="One pair of protective gloves">
+                            <label for="gloves">One pair of protective gloves</label>
+                        </div>
+                        <span>3 G</span>
+                    </div>
+                    <div class="type">
+                        <div class="type__text">
+                            <input type="checkbox" id="cloak" name="items" value="One winter cloak (black, with silver fastenings)">
+                            <label for="cloak">One winter cloak (black, with silver fastenings)</label>
+                        </div>
+                        <span>10 G</span>
+                    </div>
+                    <div class="type">
+                        <div class="type__text">
+                            <input type="checkbox" id="bookSet" name="items" value="First-year book set">
+                            <label for="bookSet">First-year book set</label>
+                        </div>
+                        <span>16 G</span>
+                    </div>
+                    <div class="type">
+                        <div class="type__text">
+                            <input type="checkbox" id="wand" name="items" value="1 wand">
+                            <label for="wand">1 wand</label>
+                        </div>
+                        <span>7 G</span>
+                    </div>
+                    <div class="type">
+                        <div class="type__text">
+                            <input type="checkbox" id="cauldron" name="items" value="1 cauldron (pewter, standard size 2)">
+                            <label for="cauldron">1 cauldron (pewter, standard size 2)</label>
+                        </div>
+                        <span>6 G</span>
+                    </div>
+                    <div class="type">
+                        <div class="type__text">
+                            <input type="checkbox" id="phials" name="items" value="1 set of glass or crystal phials">
+                            <label for="phials">1 set of glass or crystal phials</label>
+                        </div>
+                        <span>4 G</span>
+                    </div>
+                    <div class="type">
+                        <div class="type__text">
+                            <input type="checkbox" id="telescope" name="items" value="1 telescope">
+                            <label for="telescope">1 telescope</label>
+                        </div>
+                        <span>11 G</span>
+                    </div>
+                    <div class="type">
+                        <div class="type__text">
+                            <input type="checkbox" id="scales" name="items" value="1 set of brass scales">
+                            <label for="scales">1 set of brass scales</label>
+                        </div>
+                        <span>5 G</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="result__menu">
+                <div id="cart" >
+                    <h2>CART IS EMPTY</h2>
+                    <img src="./assets/empty_cart.png" alt="Empty Cart">
+                </div>
+                <button class="apply">Apply</button>
+            </div>
+        </section>
+        <div id="contact" >
+            <img src="./assets/seal.png" alt="Hogwarts Seal">
+            <div>
+                <h3>Contact us:</h3>
+                <div>
+                    <span>Owl Post</span>
+                    <img src="./assets/owl.png" alt="Owl Image">
+                    <span>Hogwarts Castle, Highlands, Scotland, Great Britain.</span>
+                </div>
+                <div>
+                    <span>Floo Network</span>
+                    <img src="./assets/floo.png" alt="Floo Network Image">
+                    <span>Hogwarts Headmaster's office</span>
+                </div>
+                <div>
+                    <span>Email</span>
+                    <img src="./assets/email.png" alt="Email Image">            
+                    <span>Sherbetlemon@hogwarts.co.uk</span>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
